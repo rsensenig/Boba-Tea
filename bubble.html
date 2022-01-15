@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Tea</title>
+</head>
+<body>
+    <h1>Bubble Tea Order</h1>
+
+    <form action="https://www.w3schools.com/action_page.php" method="get">
+        <fieldset>
+            <legend>Your Info</legend>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+        </fieldset>
+        <fieldset>
+            <legend>Order</legend>
+            <label for="tea">Tea base:</label>
+            <select name="tea" id="tea">
+                <option value="green">Green tea</option>
+                <option value="oolong">Oolong tea</option>
+                <option value="black">Black tea</option>
+            </select>
+            <br>
+            <p>Sugar level</p>
+            <input type="radio" id="all" name="sugar" value="100">
+            <label for="all">100%</label>
+            <input type="radio" id="half" name="sugar" value="50">
+            <label for="half">50%</label>
+            <input type="radio" id="none" name="sugar" value="0">
+            <label for="none">0%</label>
+            <br>
+            <p>Topping</p>
+            <input type="checkbox" id="boba" name="topping" value="boba">
+            <label for="boba">Boba original</label>
+            <input type="checkbox" id="lychee" name="topping2" value="lychee">
+            <label for="lychee">Lychee</label>
+            <input type="checkbox" id="jelly" name="topping3" value="jelly">
+            <label for="jelly">Jelly</label>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit to sip">
+    </form>
+
+</body>
+</html>
